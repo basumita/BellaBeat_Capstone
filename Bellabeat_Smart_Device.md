@@ -382,3 +382,57 @@ ggplot(data=drop_na(hourly_intensity))+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+Github transfers Created using
+<https://gist.github.com/JoshuaTPierce/b919168421b40e06481080eb53c3fb2f>
+
+### R Session
+
+``` r
+sessionInfo()
+```
+
+    ## R version 4.4.3 (2025-02-28 ucrt)
+    ## Platform: x86_64-w64-mingw32/x64
+    ## Running under: Windows 11 x64 (build 22631)
+    ## 
+    ## Matrix products: default
+    ## 
+    ## 
+    ## locale:
+    ## [1] LC_COLLATE=English_United States.utf8 
+    ## [2] LC_CTYPE=English_United States.utf8   
+    ## [3] LC_MONETARY=English_United States.utf8
+    ## [4] LC_NUMERIC=C                          
+    ## [5] LC_TIME=English_United States.utf8    
+    ## 
+    ## time zone: America/New_York
+    ## tzcode source: internal
+    ## 
+    ## attached base packages:
+    ## [1] stats     graphics  grDevices utils     datasets  methods   base     
+    ## 
+    ## other attached packages:
+    ##  [1] lubridate_1.9.4 forcats_1.0.0   stringr_1.5.1   purrr_1.0.4    
+    ##  [5] readr_2.1.5     tibble_3.2.1    ggplot2_3.5.1   tidyverse_2.0.0
+    ##  [9] tidyr_1.3.1     dplyr_1.1.4     janitor_2.2.1   skimr_2.1.5    
+    ## [13] here_1.0.1      smplot2_0.2.5  
+    ## 
+    ## loaded via a namespace (and not attached):
+    ##  [1] gtable_0.3.6      xfun_0.51         htmlwidgets_1.6.4 rstatix_0.7.2    
+    ##  [5] lattice_0.22-6    tzdb_0.4.0        vctrs_0.6.5       tools_4.4.3      
+    ##  [9] generics_0.1.3    cluster_2.1.8     pkgconfig_2.0.3   Matrix_1.7-2     
+    ## [13] data.table_1.17.0 checkmate_2.3.2   lifecycle_1.0.4   compiler_4.4.3   
+    ## [17] farver_2.1.2      munsell_0.5.1     repr_1.1.7        snakecase_0.11.1 
+    ## [21] carData_3.0-5     htmltools_0.5.8.1 yaml_2.3.10       htmlTable_2.4.3  
+    ## [25] Formula_1.2-5     pillar_1.10.1     car_3.1-3         ggpubr_0.6.0     
+    ## [29] Hmisc_5.2-3       rpart_4.1.24      abind_1.4-8       nlme_3.1-167     
+    ## [33] tidyselect_1.2.1  digest_0.6.37     stringi_1.8.4     labeling_0.4.3   
+    ## [37] splines_4.4.3     cowplot_1.1.3     rprojroot_2.0.4   fastmap_1.2.0    
+    ## [41] grid_4.4.3        colorspace_2.1-1  cli_3.6.4         magrittr_2.0.3   
+    ## [45] patchwork_1.3.0   base64enc_0.1-3   broom_1.0.7       withr_3.0.2      
+    ## [49] foreign_0.8-88    scales_1.3.0      backports_1.5.0   timechange_0.3.0 
+    ## [53] rmarkdown_2.29    nnet_7.3-20       gridExtra_2.3     ggsignif_0.6.4   
+    ## [57] hms_1.1.3         zoo_1.8-13        evaluate_1.0.3    knitr_1.49       
+    ## [61] pwr_1.3-0         mgcv_1.9-1        rlang_1.1.5       glue_1.8.0       
+    ## [65] rstudioapi_0.17.1 jsonlite_1.9.0    R6_2.6.1
