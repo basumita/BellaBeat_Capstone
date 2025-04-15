@@ -332,3 +332,11 @@ Bellabeat membership can provides subscribers the monthly packages with light an
 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+Github transfers Created using https://gist.github.com/JoshuaTPierce/b919168421b40e06481080eb53c3fb2f
+
+### R Session
+```{r}
+sessionInfo()
+```
